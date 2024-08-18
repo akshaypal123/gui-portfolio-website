@@ -1,5 +1,5 @@
 import React from 'react'
-import { EXPERIENCES } from '../constants'
+import { EXPERIENCES } from '../constants/index.js'
 
 const Experience = () => {
     return (
@@ -19,11 +19,7 @@ const Experience = () => {
                             ))}
                         </div>
                     </div>
-                )
-
-
-
-                )}
+                ))}
             </div>
         </div>
     )

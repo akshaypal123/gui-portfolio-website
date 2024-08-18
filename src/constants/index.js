@@ -4,13 +4,31 @@ export const ABOUT_TEXT = `Hi 👋🏽 I'm Akshay! An innovative and results-dri
 
 export const EXPERIENCES = [
   {
-    year: "2022 - 2024",
+    year: "2022 - present",
     role: "Software Engineer",
     company: "BAE Systems Digital Intelligence",
     description: `Built critical national infrastructure for UK government clients using Spring Boot, Python, and React TypeScript. Owned the deployment process for my team, wrote scripts in Python to help automate common defect investigation processes which improved productivity and reduced defect resolution time, maintained over 90% test coverage using TDD. Collaborated with customer stakeholders to define requirements and project timelines.`,
     technologies: ["Java", "Python", "Typescript", "React", "PostgreSQL", "GitLab", "Drone"]
   }
 ];
+
+export const PROJECTS = [
+  {
+    title: "Terminal Portfolio Website",
+    description: "I built a portfolio website in the style of a linux terminal, which the user can interact with using commands. The website contains my experience, projects and skills but diplays them in a fun and unique way",
+    github: 'https://github.com/akshaypal123/terminal-portfolio-website'
+  },
+  {
+    title: "Bloch Sphere Visualisation",
+    description: 'An interactive visualisation of the Bloch sphere from quantum mechanics. This project provides a way to visualise and interact with the Bloch sphere representation of the qubit, which is the fundamental unit of information in quantum computing.',
+    github: 'https://github.com/akshaypal123/react-bloch-sphere-visualisation'
+  },
+  {
+    title: "Python Quantum Random Number Generator",
+    description: "I built a quantum random number generator in Python using Google's Cirq library. The program can either generate one unique number or it can generate a certain amount of random numbers then plot them on a graph to visualise the randomness.",
+    github: 'https://github.com/akshaypal123/python-quantum-random-number-generator'
+  }
+]
 
 export const CONTACT = {
   phoneNo: "+447817028496",
