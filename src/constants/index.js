@@ -30,7 +30,6 @@ export const PROJECTS = [
   }
 ]
 
-export const CONTACT = {
-  phoneNo: "+447817028496",
+export const EMAIL = {
   email: "akshay.anu@gmail.com",
-};
+  link: "mailto:akshay.anu@gmail.com"}

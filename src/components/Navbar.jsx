@@ -9,8 +9,8 @@ const Navbar = () => {
                 <h1 className='text-4xl font-bold'>AP</h1>
             </div>
             <div className='m-8 flex items center justify-center gap-4 text-4xl'>
-                <a href=''><FaLinkedin /></a>
-                <a href=''><FaGithub /></a>
+                <a href='https://www.linkedin.com/in/akshay-pal-4aa102183/' target='_blank'><FaLinkedin /></a>
+                <a href='https://github.com/akshaypal123' target='_blank'><FaGithub /></a>
             </div>
         </nav>
     );
