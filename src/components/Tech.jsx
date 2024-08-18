@@ -1,20 +1,66 @@
 import React from 'react';
-import { RiReactjsLine } from 'react-icons/ri';
-import { DiJsBadge } from "react-icons/di";
 
 const Tech = () => {
   return (
-    <div className='border-b border-neutral-900 pb-24'>
+    <div className='border-b pb-24'>
       <h2 className='my-20 text-center text-4xl text-pink-300'>Technologies</h2>
       <div className='flex flex-wrap items-center justify-center gap-4'>
-        <p className='text-3xl font-light'>
-            <span className='text-[#6e0101]'>Java</span><span className='text-[#ffffff]'> ⋅ </span>
-            <span className='text-[#3776ab]'>Python</span><span className='text-[#ffffff]'> ⋅ </span>
-            <span className='text-[#f7df1e]'>Javascript</span><span className='text-[#ffffff]'> ⋅ </span>
-            <span className='text-[#007acc]'>Typescript</span><span className='text-[#ffffff]'> ⋅ </span>
-            <span className='text-[#00d8ff]'>React</span><span className='text-[#ffffff]'> ⋅ </span>
-            <span className='text-sky-700'>PostgreSQL</span>
-        </p>
+        {/* Java Logo */}
+        <div className='px-4'>
+          <i className="ci ci-java ci-5x"></i>
+          <div className='flex flex-col'>
+            <h2 className='text-center pt-2 text-lg text-white'>Java</h2>
+          </div>
+        </div>
+        {/* Python Logo */}
+        <div className='px-4'>
+          <i className="ci ci-python ci-5x"></i>
+          <div className='flex flex-col'>
+            <h2 className='text-center pt-2 text-lg text-white'>Python</h2>
+          </div>
+        </div>
+        {/* Git Logo */}
+        <div className='px-4'>
+        <i className="ci ci-git ci-5x"></i>
+          <div className='flex flex-col'>
+            <h2 className='text-center pt-2 text-lg text-white'>Git</h2>
+          </div>
+        </div>
+        {/* Javascript Logo */}
+        <div className='px-4'>
+          <i className="ci ci-js ci-5x"></i>
+          <div className='flex flex-col'>
+            <h2 className='text-center pt-2 text-lg text-white'>Javascript</h2>
+          </div>
+        </div>
+        {/* Typescript Logo */}
+        <div className='px-4'>
+          <i className="ci ci-ts ci-5x"></i>
+          <div className='flex flex-col'>
+            <h2 className='text-center pt-2 text-lg text-white'>Typescript</h2>
+          </div>
+        </div>
+        {/* Docker Logo */}
+        <div className='px-4'>
+          <i className="ci ci-docker ci-5x"></i>
+          <div className='flex flex-col'>
+            <h2 className='text-center pt-2 text-lg text-white'>Docker</h2>
+          </div>
+        </div>
+        {/* Kubernetes Logo */}
+        <div className='px-4'>
+          <i className="ci ci-kubernetes ci-5x"></i>
+          <div className='flex flex-col'>
+            <h2 className='text-center pt-2 text-lg text-white'>Kubernetes</h2>
+          </div>
+        </div>
+        {/* PostgreSQL Logo */}
+        <div className='px-4'>
+          <i className="ci ci-postgresql ci-5x"></i>
+          <div className='flex flex-col'>
+            <h2 className='text-center pt-2 text-lg text-white'>PostgreSQL</h2>
+          </div>
+        </div>
       </div>
     </div>
   )

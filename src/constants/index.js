@@ -4,11 +4,11 @@ export const ABOUT_TEXT = `Hi 👋🏽 I'm Akshay! An innovative and results-dri
 
 export const EXPERIENCES = [
   {
-    year: "2022 - Present",
+    year: "2022 - 2024",
     role: "Software Engineer",
     company: "BAE Systems Digital Intelligence",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Java", "Typescript", "React", "PostgreSQL", "Elastic"],
+    description: `Built critical national infrastructure for UK government clients using Spring Boot, Python, and React TypeScript. Owned the deployment process for my team, wrote scripts in Python to help automate common defect investigation processes which improved productivity and reduced defect resolution time, maintained over 90% test coverage using TDD. Collaborated with customer stakeholders to define requirements and project timelines.`,
+    technologies: ["Java", "Python", "Typescript", "React", "PostgreSQL", "GitLab", "Drone"]
   }
 ];
 
