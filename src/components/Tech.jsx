@@ -19,11 +19,18 @@ const Tech = () => {
             <h2 className='text-center pt-2 text-lg text-white'>Python</h2>
           </div>
         </div>
-        {/* Git Logo */}
+        {/* Spring Logo */}
         <div className='px-4'>
-        <i className="ci ci-git ci-5x"></i>
+          <i className="ci ci-spring ci-5x"></i>
           <div className='flex flex-col'>
-            <h2 className='text-center pt-2 text-lg text-white'>Git</h2>
+            <h2 className='text-center pt-2 text-lg text-white'>Spring</h2>
+          </div>
+        </div>
+        {/* React Logo */}
+        <div className='px-4'>
+          <i className="ci ci-reactjs ci-5x"></i>
+          <div className='flex flex-col'>
+            <h2 className='text-center pt-2 text-lg text-white'>React</h2>
           </div>
         </div>
         {/* Javascript Logo */}
@@ -52,6 +59,20 @@ const Tech = () => {
           <i className="ci ci-kubernetes ci-5x"></i>
           <div className='flex flex-col'>
             <h2 className='text-center pt-2 text-lg text-white'>Kubernetes</h2>
+          </div>
+        </div>
+        {/* Git Logo */}
+        <div className='px-4'>
+        <i className="ci ci-git ci-5x"></i>
+          <div className='flex flex-col'>
+            <h2 className='text-center pt-2 text-lg text-white'>Git</h2>
+          </div>
+        </div>
+        {/* AWS Logo */}
+        <div className='px-4'>
+        <i className="ci ci-aws ci-5x"></i>
+          <div className='flex flex-col'>
+            <h2 className='text-center pt-2 text-lg text-white'>AWS</h2>
           </div>
         </div>
         {/* PostgreSQL Logo */}
