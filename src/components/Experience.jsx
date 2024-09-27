@@ -14,9 +14,11 @@ const Experience = () => {
                         <div className='w-full max-w-xl lg:w-3/4 text-xl'>
                             <h6 className='mb-2 font-bold text-white'>{experience.role} - <span>{experience.company}</span></h6>
                             <p className='mb-4 text-neutral-400 text-lg'>{experience.description}</p>
-                            {experience.technologies.map((tech, index) => (
-                                <span key={index} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-semibold text-purple-800'>{tech}</span>
-                            ))}
+                            <div className='flex flex-wrap items-center w-full lg:flex'>
+                                {experience.technologies.map((tech, index) => (
+                                    <span key={index} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-semibold text-purple-800'>{tech}</span>
+                                ))}
+                            </div>
                         </div>
                     </div>
                 ))}
